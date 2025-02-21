@@ -106,7 +106,6 @@ func (h *Hunter) Hunt() http.HandlerFunc {
 			response.JSON(w, http.StatusOK, res)
 			return
 		}
-
 		// response
 		response.JSON(w, http.StatusOK, res)
 		return
